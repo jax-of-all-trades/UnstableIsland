@@ -47,6 +47,10 @@ a{
 a:hover{
     color: maroon;
 }
+img{
+    padding-left: 2.3em;
+    padding-bottom: 2.3em;
+}
 #index-button{
     background: black;
 }
