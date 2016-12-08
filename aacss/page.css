@@ -40,6 +40,16 @@ p{
 li p {
     font-size: .7em;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: maroon;
+}
+#index-button{
+    background: black;
+}
 @font-face {
     font-family: 'wc_mano_bold';
     src: url('font/wc-mano-negra/wcmanonegraboldbta-webfont.woff2') format('woff2'),
