@@ -1,0 +1,27 @@
+p,
+li{
+    font-family: wc_mano_regular;
+}
+h1,
+h2,
+h3{
+    font-family: wc_mano_bold;
+}
+@font-face {
+    font-family: 'wc_mano_bold';
+    src: url('font/wc-mano-negra/wcmanonegraboldbta-webfont.woff2') format('woff2'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.woff') format('woff'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.ttf') format('truetype'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.svg#wc_mano_negra_btabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wc_mano_regular';
+    src: url('font/wc-mano-negra/wcmanonegrabta-webfont.woff2') format('woff2'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.woff') format('woff'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.ttf') format('truetype'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
