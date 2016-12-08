@@ -1,0 +1,74 @@
+html{
+    background: url("../img/D'Synge-Flag1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+p,
+li{
+    font-family: wc_mano_regular;
+    width: 80%;
+    padding-left: 1em;
+    list-style: none;
+}
+h1,
+h2,
+h3{
+    font-family: wc_mano_bold;
+    padding-left: 1em;
+    margin-bottom: .25em;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.4em;
+}
+li{
+    font-size: 1.8em;
+}
+p{
+    font-size: 1.4em;
+}
+li p {
+    font-size: .7em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: maroon;
+}
+img{
+    padding-left: 2.3em;
+    padding-bottom: 2.3em;
+}
+#index-button{
+    background: black;
+}
+@font-face {
+    font-family: 'wc_mano_bold';
+    src: url('font/wc-mano-negra/wcmanonegraboldbta-webfont.woff2') format('woff2'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.woff') format('woff'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.ttf') format('truetype'),
+         url('font/wc-mano-negra/wcmanonegraboldbta-webfont.svg#wc_mano_negra_btabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wc_mano_regular';
+    src: url('font/wc-mano-negra/wcmanonegrabta-webfont.woff2') format('woff2'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.woff') format('woff'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.ttf') format('truetype'),
+         url('font/wc-mano-negra/wcmanonegrabta-webfont.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
