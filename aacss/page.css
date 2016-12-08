@@ -1,11 +1,44 @@
+html{
+    background: url("../img/D'Synge-Flag1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
 p,
 li{
     font-family: wc_mano_regular;
+    width: 80%;
+    padding-left: 1em;
+    list-style: none;
 }
 h1,
 h2,
 h3{
     font-family: wc_mano_bold;
+    padding-left: 1em;
+    margin-bottom: .25em;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.4em;
+}
+li{
+    font-size: 1.8em;
+}
+p{
+    font-size: 1.4em;
+}
+li p {
+    font-size: .7em;
 }
 @font-face {
     font-family: 'wc_mano_bold';
