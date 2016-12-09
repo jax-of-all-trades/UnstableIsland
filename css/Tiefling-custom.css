@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    max-width: 780px;
+    margin: 0 auto;
+    color:#ccc;
+}
+p{
+    line-height: 200%;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.jumbotron{
+        background-image: url(../img/banner.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        color: white;
+        height: auto;
+}
+span{
+    color: white;
+    font-size: 2em
+}
