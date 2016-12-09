@@ -1,11 +1,5 @@
 body {
-    background-color: black;
-    max-width: 780px;
-    margin: 0 auto
-
-}
-p{
-    line-height: 200%;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .portfolio-item {
@@ -15,11 +9,6 @@ p{
 footer {
     margin: 50px 0;
 }
-
-.jumbotron{
-        background-image: url(../img/banner.jpg);
-        background-size: cover;
-        background-repeat: repeat;
-        color: white;
-        height: auto;
+.col-md-8 img{
+    border: 3px solid black;
 }
